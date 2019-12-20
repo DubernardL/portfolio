@@ -7,14 +7,17 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <script src="https://kit.fontawesome.com/54024468ec.js" crossorigin="anonymous"></script>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-    <div id="particles-js" class="particles-back"></div>
     <%= yield %>
 
     <%= javascript_pack_tag 'application' %>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   </body>
 </html>
