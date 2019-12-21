@@ -1,5 +1,5 @@
 <!-- First page -->
-<div class="background-first">
+<div class="background-first section">
   <div class="container-bg">
     <h1></h1>
     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
@@ -12,22 +12,22 @@
 
 
   <div class="container">
-    <div class="infos-name">
+    <div class="infos-name section">
       <%= image_tag("logo_portfolio.png", class:"logo") %>
       <p class="fullname">DUBERNARD LUCAS</p>
       <p class="description">Developper web Full Stack (Back and Front)</p>
       <div class="typed-div">
         <p class="typed-text"></p>
       </div>
-      <p><i class="fas fa-angle-double-down"></i></p>
+      <a href="#skills"><i class="fas fa-angle-double-down"></i></a>
     </div>
   </div>
 </div>
 
 
-<!-- Skills page -->
+<!-- Skills -->
 
-<div class="skills">
+<div id="skills" class="section">
   <div class="container">
     <p class="title">Skills</p>
     <ul class="skill-list">
@@ -43,5 +43,43 @@
       <li>x Bootstrap</li>
       <li>x Heroku</li>
     </ul>
+    <a href="#formation">
+      <p class="arrow"><i class="fas fa-angle-double-down p2"></i></p>
+    </a>
+  </div>
+</div>
+
+<!-- Formation -->
+
+<div id="formation" class="section">
+  <div class="container">
+    <p class="title">Formation</p>
+    <div class="logo-wagon-div">
+      <%= image_tag("logo-wagon.png", class:"logo-wagon") %>
+    </div>
+    <p class="text-formation">I followed an intensive 10 weeks training course (October to December 2019) at <a href="https://www.lewagon.com/" target="_blank">Wagon</a> Bordeaux. We learned the Ruby language for the back-end and the JavaScript, HTML and CSS languages for the front-end. I have also worked with tools that developers use such as GitHub, SQL, Heroku and many others. But above all I was able to learn an effective working method for the developer as well as for the client. I continue to learn new technologies every day and improve on the skills I have acquired. During this training I was able to do group projects from start to finish. You can find these projects on this page : follow the arrows !</p>
+    <a href="#projects">
+      <p class="arrow"><i class="fas fa-angle-double-down p2"></i></p>
+    </a>
+  </div>
+</div>
+
+<!-- Projects -->
+
+<div id="projects" class="section">
+  <div class="container">
+    <p class="title">Projects</p>
+    <p class="advice">Advice: these applications are responsive but they have been developed according to the "mobile first" model. So for a better experience we advise you to consult its apps in mobile format.<br>Apps are hosted on a heroku server, there may be a loading time of 20 seconds.</p>
+    <div class="loue-mon-conjoint">
+      <p class="title-project"><a href="https://loue-mon-conjoint.herokuapp.com/" target="_blank">Loue mon conjoint</a></p>
+      <p class="advice">
+        You can create an account or log in with the following ids :<br>Email : lucas@gmail.com<br>Password: azerty<br>
+      </p>
+      <p class="content-project">
+      For this first group project, we decided to create a "marketplace", like Airbnb or LeBonCoin. It was an exercise so the subject was not important. But technically we have learned how to allow users to create offers, accept or refuse requests, consult ads and reserve them. Furthermore, there is an identification system for users. You will also notice the use of APIs and in particular that of Google Map.</p>
+    </div>
+    <a href="#">
+      <p class="arrow"><i class="fas fa-angle-double-down p2"></i></p>
+    </a>
   </div>
 </div>
