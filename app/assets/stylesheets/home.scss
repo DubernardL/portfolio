@@ -139,6 +139,7 @@ a:link {
 .advice {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  text-align: justify;
   opacity: 0.6;
   border-bottom: 0.5mm solid #C4D1D6;
 }
@@ -150,9 +151,12 @@ a:link {
 
 .web-site {
   font-family: 'Montserrat', sans-serif;
-  border: 0.5mm solid #C4D1D6;
+  border-bottom: 0.5mm solid #C4D1D6;
   padding: 10px;
-  border-radius: 5px;
+  margin-bottom: 15px;
+  background-image: url(splash-blue.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .title-project {
