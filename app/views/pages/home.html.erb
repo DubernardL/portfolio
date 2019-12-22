@@ -15,7 +15,7 @@
     <div class="infos-name section">
       <%= image_tag("logo_portfolio.png", class:"logo") %>
       <p class="fullname">DUBERNARD LUCAS</p>
-      <p class="description">Developper web Full Stack (Back and Front)</p>
+      <p class="description">Developpeur web Full Stack (Back and Front)</p>
       <div class="typed-div">
         <p class="typed-text"></p>
       </div>
@@ -29,11 +29,10 @@
 
 <div id="skills" class="section">
   <div class="container">
-    <p class="title">Skills</p>
+    <p class="title">Competences</p>
     <ul class="skill-list">
       <li>x Ruby / Framwork : OnRails</li>
       <li>x JavaScript</li>
-      <li>x React (incoming)</li>
       <li>x HTML</li>
       <li>x CSS</li>
       <li>x SQL / Postgre</li>
@@ -57,7 +56,7 @@
     <div class="logo-wagon-div">
       <%= image_tag("logo-wagon.png", class:"logo-wagon") %>
     </div>
-    <p class="text-formation">I followed an intensive 10 weeks training course (October to December 2019) at <a href="https://www.lewagon.com/" target="_blank">Wagon</a> Bordeaux. We learned the Ruby language for the back-end and the JavaScript, HTML and CSS languages for the front-end. I have also worked with tools that developers use such as GitHub, SQL, Heroku and many others. But above all I was able to learn an effective working method for the developer as well as for the client. I continue to learn new technologies every day and improve on the skills I have acquired. During this training I was able to do group projects from start to finish. You can find these projects on this page : follow the arrows !</p>
+    <p class="text-formation">J'ai suivi une formation intensive de 10 semaines (octobre à décembre 2019) au <a href="https://www.lewagon.com/" target="_blank">Wagon</a> Bordeaux. J'ai appris le langage Ruby pour le back-end et les langages JavaScript, HTML et CSS pour le front-end. J'ai également travaillé avec des outils que les développeurs utilisent tels que GitHub, SQL, Heroku et bien d'autres. Mais j'ai surtout pu apprendre une méthode de travail efficace aussi bien pour le développeur que pour le client. Je continue à apprendre de nouvelles technologies chaque jour et à améliorer mes compétences. Au cours de cette formation, j'ai pu réaliser des projets de groupe du début à la fin. Vous pouvez retrouver ces projets sur cette page: suivez les flèches!</p>
     <a href="#projects">
       <p class="arrow"><i class="fas fa-angle-double-down p2"></i></p>
     </a>
@@ -66,37 +65,52 @@
 
 <!-- Projects -->
 
-<div id="projects" class="section">
+<div id="projects">
   <div class="container">
-    <p class="title">Projects</p>
+    <p class="title">Projets</p>
     <p class="advice">
-      Advice: these applications are responsive but they have been developed according to the "mobile first" model. So for a better experience we advise you to consult its apps in mobile format.<br>Apps are hosted on a Heroku server, there may be a loading time of 20 seconds.
-      <br>
-      You can create an account or log in with the following ids :<br>Email : lucas@gmail.com<br>Password : azerty<br>
+      Conseil: ces applications sont responsives mais elles ont été développées selon le modèle "mobile first". Donc pour une meilleure expérience nous vous conseillons de consulter ses applications au format mobile. <br> Les applications sont hébergées sur un serveur Heroku, il peut y avoir un temps de chargement de 20 secondes.
+       <br>
+       Vous pouvez créer un compte ou vous connecter avec les identifiants suivants: <br> Email: lucas@gmail.com <br> Mot de passe: azerty <br>
     </p>
 
-    <div class="web-site">
-      <a href="https://loue-mon-conjoint.herokuapp.com/" target="_blank">
-        <div class="title-project">
-        <%= image_tag("LMC-logo.png") %>
-        </div>
-        <p class="content-project">
-        For this first group project, we decided to create a "marketplace", like Airbnb or LeBonCoin. It was an exercise so the subject was not important. But technically we have learned how to allow users to create offers, accept or refuse requests, consult ads and reserve them. Furthermore, there is an identification system for users. You will also notice the use of APIs and in particular that of Google Map.</p>
-      </a>
+    <div class="web-site loue">
+      <div class="img-opacity">
+        <a href="https://loue-mon-conjoint.herokuapp.com/" target="_blank">
+          <div class="title-project">
+          <%= image_tag("LMC-logo.png") %>
+          </div>
+          <p class="content-project">
+          Pour ce premier projet de groupe, nous avons décidé de créer une «marketplace», comme Airbnb ou LeBonCoin. C'était un exercice donc le sujet n'était pas important. Mais techniquement, nous avons appris à permettre aux utilisateurs de créer des offres, d'accepter ou de refuser des demandes, de consulter des annonces et de les réserver. De plus, il existe un système d'identification pour les utilisateurs. Vous remarquerez également l'utilisation d'API et en particulier celle de Google Map.</p>
+        </a>
+      </div>
     </div>
 
-    <div class="web-site">
-      <a href="https://loue-mon-conjoint.herokuapp.com/" target="_blank">
-        <div class="title-project">
-        <%= image_tag("LMC-logo.png") %>
-        </div>
-        <p class="content-project">
-        For this first group project, we decided to create a "marketplace", like Airbnb or LeBonCoin. It was an exercise so the subject was not important. But technically we have learned how to allow users to create offers, accept or refuse requests, consult ads and reserve them. Furthermore, there is an identification system for users. You will also notice the use of APIs and in particular that of Google Map.</p>
-      </a>
+    <div class="web-site flash-wine">
+      <div class="img-opacity">
+        <a href="https://loue-mon-conjoint.herokuapp.com/" target="_blank">
+          <div class="title-project logo-fw">
+          <%= image_tag("logo_fw.png") %>
+          </div>
+          <p class="content-project">
+          Pour ce second projet, toujours réalisé en groupe nous avons developper une application pour permettre d'apprendre le vin rapidement et facilement. Nous avons donc travailler pour "gamifier" l'apprentissage du vin. J'ai notamment travailler personnellement sur la partie "quiz" de l'application. Comme précedemment l'utilisateur détient un compte. Il peut également consulter des cours, faire des quiz et gagner de l'éxpérience en fonction de ses résultats. L'utilisateur peut également, commenter, noter des vins ainsi que les partager avec un réseau d'amis qu'il aura développer.</p>
+        </a>
+      </div>
     </div>
 
-    <a href="#">
+    <a href="#contact">
       <p class="arrow"><i class="fas fa-angle-double-down p2"></i></p>
     </a>
+  </div>
+</div>
+
+<!-- About me -->
+
+<div id="contact" class="section">
+  <div class="container">
+    <p class="title">Contact</p>
+    <div class="content-contact">
+      <p>Salut a tous Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa accusantium sed dolorum porro, repellendus delectus impedit iusto voluptatum aperiam recusandae vel inventore in error odio eveniet! Hic ducimus, maxime laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nostrum quos laudantium! Enim ratione, odit! Asperiores quos odit doloribus velit iste praesentium rerum error esse dolorum unde cupiditate, reiciendis, accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores deserunt alias ad cum, modi, animi suscipit iste obcaecati totam qui omnis nostrum temporibus velit officiis ea blanditiis commodi aliquid voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, enim similique tempora. Fugit molestiae neque ad voluptates, harum, temporibus alias asperiores mollitia non! Sapiente eum aut, numquam incidunt voluptates doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolore voluptate obcaecati accusamus eum hic exercitationem, aut similique natus id ab voluptas excepturi sit animi esse harum corporis maxime non!</p>
+    </div>
   </div>
 </div>

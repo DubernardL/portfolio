@@ -151,12 +151,14 @@ a:link {
 
 .web-site {
   font-family: 'Montserrat', sans-serif;
-  border-bottom: 0.5mm solid #C4D1D6;
   padding: 10px;
   margin-bottom: 15px;
-  background-image: url(splash-blue.png);
   background-position: center;
   background-size: cover;
+}
+
+.img-opacity {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .title-project {
@@ -169,4 +171,20 @@ a:link {
   font-size: 17px;
   text-align: justify;
   opacity: 0.8;
+}
+// particular css selector
+.loue {
+  background-image: url("blue2.png");
+}
+
+.flash-wine {
+  background-image: url("pink.png");
+}
+
+// Contact section
+
+.content-contact {
+  background-image: url("two-colors.png");
+  background-position: center;
+  background-size: cover;
 }
