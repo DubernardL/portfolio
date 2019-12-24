@@ -171,17 +171,19 @@ a:link {
 // particular css selector
 
 .loue {
-  background-image: url('blue2.png');
+  background-image: asset_url('blue2.png');
+  background-size: cover;
 }
 
 .flash-wine {
-  background-image: url('pink.png');
+  background-image: asset_url('pink.png');
+  background-size: cover;
 }
 
 // Contact section
 
 #contact {
-  background-image: url("two-colors.png");
+  background-image: asset_url("two-colors.png");
   // background-position: center;
   background-size: cover;
 }
