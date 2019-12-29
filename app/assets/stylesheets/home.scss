@@ -18,7 +18,7 @@ a:link {
 
 .title {
   font-family: 'elrotex';
-  color: #5E5E5E;
+  color: white;
   font-size: 50px;
 }
 
@@ -27,14 +27,25 @@ a:link {
   justify-content: center;
 }
 
+body {
+ background-color: #3B3A3A;
+}
+
+.full-container {
+  background-color: #3B3A3A;
+  border-radius: 5px;
+  box-shadow: 0 0 50px rgba(255,255,255,0.1);
+}
+
 // Background
 .background-first {
   margin: 0;
   // (-45, Extreme bas Droite, Bas droite, Haut gauche, extreme haut gauche)
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, black, #2d2c2c, grey, #d3d3d3);
   background-size: 400% 400%;
-  animation: gradientBG 10s ease infinite;
-
+  animation: gradientBG 15s ease infinite;
+  box-shadow: 0 0 50px rgba(226,226,226,0.2);
+  border-radius: 5px;
 }
 
 @keyframes gradientBG {
@@ -57,6 +68,10 @@ a:link {
 
 // First page
 
+.container-first {
+  padding: 0 0 0 0;
+}
+
 .fullname {
   font-family: 'elrotex';
   color: white;
@@ -74,9 +89,9 @@ a:link {
 }
 
 .typed-text {
-  font-family: 'elrotex';
-  color: #5E5E5E;
-  font-size: 30px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #dbd4d4;
+  font-size: 35px;
 }
 
 .logo {
@@ -94,7 +109,6 @@ a:link {
 }
 
 // skills section
-
 
 .skill-list {
   font-family: 'elrotex';
@@ -154,10 +168,6 @@ a:link {
   align-items: center;
 }
 
-.img-opacity {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .title-project {
   display: flex;
   justify-content: center;
@@ -169,24 +179,8 @@ a:link {
   text-align: justify;
   opacity: 0.8;
 }
-// particular css selector
-
-.loue {
-  background-image: asset_url('blue2.png');
-  background-size: cover;
-}
-
-.flash-wine {
-  background-image: asset_url('pink.png');
-  background-size: cover;
-}
 
 // Contact section
-
-#contact {
-  background-image: asset_url("two-colors.png");
-  background-size: cover;
-}
 
 .list-contact {
   font-family: 'elrotex';
