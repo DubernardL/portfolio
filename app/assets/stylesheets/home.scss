@@ -173,7 +173,7 @@ body {
 
 
 .ruby .card .front {
-  background-image: url("ruby.png");
+  background-image: asset_url("ruby.png");
 }
 
 .javascript .card .front {
@@ -189,7 +189,7 @@ body {
 }
 
 .sql .card .front {
-  background-image: url("hiclipart.com.png");
+  background-image: asset_url("hiclipart.com.png");
 }
 
 .jquery .card .front {
