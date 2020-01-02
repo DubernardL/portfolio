@@ -8,6 +8,3 @@ var typed = new Typed('.typed-text', {
   showCursor: false
 });
 
-
-// flipping cards
-

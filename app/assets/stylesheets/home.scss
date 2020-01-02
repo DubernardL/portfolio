@@ -173,7 +173,7 @@ body {
 
 
 .ruby .card .front {
-  background-image: url("https://www.imagile.fr/wp-content/uploads/2017/12/logo-ror-300x300.png");
+  background-image: url("ruby.png");
 }
 
 .javascript .card .front {
@@ -181,11 +181,11 @@ body {
 }
 
 .html .card .front {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png");
+  background-image: url("https://www.stickpng.com/assets/images/5847f5bdcef1014c0b5e489c.png");
 }
 
 .css .card .front {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg");
+  background-image: url("https://blog.leonhassan.co.uk/content/images/size/w600/2019/09/css3.svg");
 }
 
 .sql .card .front {
@@ -236,8 +236,9 @@ body {
 }
 
 .text-formation {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
+  font-size: 25px;
   text-align: justify;
   opacity: 0.8;
 }
@@ -245,8 +246,9 @@ body {
 // projects section
 
 .advice {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 18px;
+  color: white;
   text-align: justify;
   opacity: 0.6;
   // border-bottom: 0.5mm solid #C4D1D6;
@@ -258,11 +260,9 @@ body {
 }
 
 .web-site {
-  font-family: 'Montserrat', sans-serif;
-  padding: 10px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
   margin-bottom: 15px;
-  background-position: center;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -275,7 +275,7 @@ body {
 }
 
 .content-project {
-  font-size: 17px;
+  font-size: 25px;
   text-align: justify;
   opacity: 0.8;
 }
@@ -284,15 +284,15 @@ body {
 
 .list-contact {
   font-family: 'elrotex';
-  color: #5E5E5E;
-  font-size: 20px;
+  color: white;
+  font-size: 25px;
   display: flex;
   text-align: center;
   flex-direction: column;
 }
 
 .icones {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .item-contact {
