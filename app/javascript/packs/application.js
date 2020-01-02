@@ -7,4 +7,7 @@ var typed = new Typed('.typed-text', {
   loop: true,
   showCursor: false
 });
-// Typed.js
+
+
+// flipping cards
+
