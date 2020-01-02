@@ -102,7 +102,7 @@ body {
   opacity: 0.5;
 }
 
-// test
+// skill list
 
 .flipCard {
   -webkit-perspective: 800;
@@ -200,6 +200,18 @@ body {
   background-image: url("http://pngimg.com/uploads/github/github_PNG40.png");
 }
 
+.api .card .front {
+  background-image: url("https://eleven-strategy.fr/wp-content/uploads//bfi_thumb/learnmore-api-30hd9o2d4ui075zpjczd5y0n4amoucosrvv3kmaemru7bajds.png");
+}
+
+.bootstrap .card .front {
+  background-image: url("https://www.ambient-it.net/wp-content/uploads/2016/04/bootstrap-logo-175.png");
+}
+
+.heroku .card .front {
+  background-image: url("https://atomrace.com/blog/wp-content/uploads/2016/02/heroku-logo-trans.png");
+}
+
 .flipCard .card .back {
   font-family: 'PT Sans Narrow', sans-serif;
   background-color: #3B3A3A;
@@ -211,21 +223,6 @@ body {
   box-shadow: 0 0 50px rgba(255,255,255,0.1);
 }
 
-// skills section
-
-.skill-list {
-  font-family: 'elrotex';
-  line-height: 50px;
-  color: #5E5E5E;
-  font-size: 30px;
-  list-style: none;
-}
-
-.p2 {
-  font-size: 50px;
-  color: #5E5E5E;
-  opacity: 0.5;
-}
 
 // formation section
 
