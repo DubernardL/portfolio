@@ -35,11 +35,11 @@ body {
 .background-first {
   margin: 0;
   // (-45, Extreme bas Droite, Bas droite, Haut gauche, extreme haut gauche)
-  background: linear-gradient(-45deg, black, #2d2c2c, grey, #d3d3d3);
+  background: linear-gradient(-45deg, black, #2d2c2c, grey, #e2e0e0);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
   box-shadow: 0 0 50px rgba(226,226,226,0.2);
-  border-radius: 5px;
+  border-bottom-radius: 5px;
 }
 
 @keyframes gradientBG {
@@ -68,14 +68,14 @@ body {
 
 .fullname {
   font-family: 'elrotex';
-  color: white;
+  color: #66ccab;
   font-size: 60px;
 }
 
 .description {
-  font-family: 'elrotex';
+  font-family: 'PT Sans Narrow', sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .infos-name {
@@ -238,9 +238,9 @@ body {
 .text-formation {
   font-family: 'PT Sans Narrow', sans-serif;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 // projects section
@@ -268,16 +268,20 @@ body {
   align-items: center;
 }
 
-.title-project {
+.img-project {
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
 }
 
 .content-project {
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify;
-  opacity: 0.8;
+  opacity: 0.6;
+}
+
+.loue {
+  height: 100px;
 }
 
 // Contact section
