@@ -20,11 +20,21 @@ a:link {
   font-family: 'elrotex';
   color: white;
   font-size: 50px;
+  background-image:linear-gradient(to top, white 25%, #94ccc2 50%, #64BCAE 75%, #3cb7a3 100%);
+  color: rgba(0, 0, 0, 0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+}
+
+.fa-angle-double-down:before {
+ color: white;
 }
 
 .arrow {
   display: flex;
   justify-content: center;
+  color: red;
 }
 
 body {
@@ -68,7 +78,7 @@ body {
 
 .fullname {
   font-family: 'elrotex';
-  color: #66ccab;
+  color: white;
   font-size: 60px;
 }
 
@@ -287,9 +297,9 @@ body {
 // Contact section
 
 .list-contact {
-  font-family: 'elrotex';
+  font-family: 'PT Sans Narrow', sans-serif;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -297,6 +307,10 @@ body {
 
 .icones {
   font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(0.4turn, white 25%, #94ccc2 50%, #64BCAE 75%, #3cb7a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .item-contact {
