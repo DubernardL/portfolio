@@ -316,3 +316,32 @@ body {
 .item-contact {
   margin-top: 30px;
 }
+
+.link-icone:hover {
+  transform: scale(1.05);
+}
+
+// Form
+
+.form-label {
+  width: 100% !important;
+  color: white;
+  opacity: 0.8;
+}
+
+.center-btn {
+  text-align: center;
+}
+
+.btn-form {
+  color: white;
+  padding: 15px 20px;
+  border-radius: 300px;
+  border: none;
+  background:linear-gradient(to top, white 25%, #94ccc2 50%, #64BCAE 75%, #3cb7a3 100%);
+  color: grey;
+}
+
+.btn-form:hover {
+  transform: scale(1.05);
+}
