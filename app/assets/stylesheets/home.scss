@@ -3,103 +3,78 @@
   src: asset_url('elrotex.ttf')
 }
 
-.section {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
 a:link {
   text-decoration: none;
 }
+
 
 .title {
   font-family: 'elrotex';
   color: white;
   font-size: 50px;
-  background-image:linear-gradient(to top, white 25%, #94ccc2 50%, #64BCAE 75%, #3cb7a3 100%);
+  background-image:linear-gradient(to top, #d1e8ff 25%, #aecfe8 50%, #6b88a0 75%, #59656f 100%);
   color: rgba(0, 0, 0, 0);
   -webkit-background-clip: text;
   background-clip: text;
   position: relative;
 }
 
-.fa-angle-double-down:before {
- color: white;
-}
-
 .arrow {
   display: flex;
   justify-content: center;
-  color: red;
 }
 
 body {
- background-color: #3B3A3A;
+ background-color: #252525;
 }
 
-// Background
-.background-first {
-  margin: 0;
-  // (-45, Extreme bas Droite, Bas droite, Haut gauche, extreme haut gauche)
-  background: linear-gradient(-45deg, black, #2d2c2c, grey, #e2e0e0);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
-  box-shadow: 0 0 50px rgba(226,226,226,0.2);
-  border-bottom-radius: 5px;
+p {
+  font-family: 'Prompt', sans-serif;
+  color: white;
 }
 
-@keyframes gradientBG {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.container-bg {
-  width: 100%;
-  position: absolute;
-  top: 35%;
+h3 {
+  font-family: 'Prompt', sans-serif;
+  color: white;
 }
 
 // First page
 
+.img-first {
+  background-size: cover;
+  background-position: center;
+}
+
 .container-first {
-  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.div-logo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.logo {
+  width: 200px;
 }
 
 .fullname {
   font-family: 'elrotex';
   color: white;
-  font-size: 60px;
+  font-size: 65px;
 }
 
 .description {
-  font-family: 'PT Sans Narrow', sans-serif;
   color: white;
   font-size: 35px;
 }
 
-.infos-name {
-  text-align: center;
-}
-
 .typed-text {
-  font-family: 'PT Sans Narrow', sans-serif;
-  color: #dbd4d4;
+  color: white;
   font-size: 35px;
-}
-
-.logo {
-  width: 150px;
 }
 
 .typed-div {
@@ -108,8 +83,13 @@ body {
 
 .fa-angle-double-down {
   font-size: 50px;
-  color: white;
+  color: #d1e8ff;
   opacity: 0.5;
+}
+
+.first-arrow {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 // skill list
@@ -173,7 +153,7 @@ body {
 }
 
 .flipCard .card .front {
-  background-color: #3B3A3A;
+  background-color: #59656f;
   border-radius: 5px;
   box-shadow: 0 0 50px rgba(255,255,255,0.1);
   background-position: center;
@@ -228,13 +208,14 @@ body {
 
 .flipCard .card .back {
   font-family: 'PT Sans Narrow', sans-serif;
-  background-color: #3B3A3A;
+  background-color: #59656f;
   text-align: left;
   color: white;
   padding: 5px;
   font-size: 20px;
   border-radius: 5px;
   box-shadow: 0 0 50px rgba(255,255,255,0.1);
+  border: none !important;
 }
 
 
@@ -258,41 +239,83 @@ body {
 }
 
 // projects section
-
-.advice {
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 18px;
-  color: white;
-  text-align: justify;
-  opacity: 0.6;
-  // border-bottom: 0.5mm solid #C4D1D6;
-}
-
-.web-site a {
-  color: black;
-  text-decoration: none;
-}
-
-.web-site {
-  font-family: 'PT Sans Narrow', sans-serif;
-  color: white;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-project {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
+#new-projects {
+  height: 100vh;
 }
 
 .content-project {
-  font-size: 20px;
-  text-align: justify;
-  opacity: 0.6;
+  background-color: yellow;
 }
+
+.img-phone {
+  position: absolute;
+  height: 70%;
+  z-index: 1;
+}
+
+.show-in {
+  height: 100%;
+  padding: 30px 0px;
+}
+
+.descrition {
+  background-color: blue;
+  display: flex;
+}
+
+.div-overflow {
+  background-color: blue;
+}
+
+.img-des {
+  height: 95.5%;
+}
+
+.descrition-site {
+  margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+// .advice {
+//   font-family: 'PT Sans Narrow', sans-serif;
+//   font-size: 18px;
+//   color: white;
+//   text-align: justify;
+//   opacity: 0.6;
+//   // border-bottom: 0.5mm solid #C4D1D6;
+// }
+
+// .web-site a {
+//   color: black;
+//   text-decoration: none;
+// }
+
+// .web-site {
+//   font-family: 'PT Sans Narrow', sans-serif;
+//   color: white;
+//   margin-bottom: 15px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .img-project {
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 15px;
+// }
+
+// .content-project {
+//   font-size: 20px;
+//   text-align: justify;
+//   opacity: 0.6;
+// }
 
 // Contact section
 
