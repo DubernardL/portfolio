@@ -26,107 +26,34 @@
 <div class="container mt-4">
   <p class="title" id="skills">&nbsp;Competences</p>
 
-  <div class="row d-flex justify-content-center">
-    <div class="flipCard .col-xs-6 ruby">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>Ruby OnRails</h3>
-          <p>Ruby est un langage open source orienté objet. C'est un langage dynamique dont la communauté est très active et qui met l'accent sur la productivité. J'ai donc une facilité à aborder les langages orientés objet. Je maîtrise également le framework OnRails.</p>
-        </div>
+  <div class="competences-content">
+    <div class="row">
+      <div class="left-side col-sm">
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, enim! Rerum voluptas ad distinctio dignissimos nisi reiciendis, earum ipsam maiores asperiores cumque! Iure repudiandae fuga vero, minus rem temporibus quasi.</p>
+      </div>
+
+      <div class="right-side col-sm">
+        <h3>Title 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, enim! Rerum voluptas ad distinctio dignissimos nisi reiciendis, earum ipsam maiores asperiores cumque! Iure repudiandae fuga vero, minus rem temporibus quasi.</p>
       </div>
     </div>
-    <div class="flipCard .col-xs-6 javascript">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>JavaScript</h3>
-          <p>Ce langage front-end offre de nombreuses possibilités. Il permet facilement de dynamiser les pages web. Il occupe une place de plus en plus importante dans les projets.</p>
-        </div>
-      </div>
-    </div>
-    <div class="flipCard .col-xs-6 react">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>React</h3>
-          <p>Framwork que j'ai appris en sortant du Wagon. J'ai fais la track Codecademy puis suivis un cours complémentaire du Wagon complet avec des cours théoriques et des exercices à réaliser.</p>
-        </div>
-      </div>
-    </div>
-    <div class="flipCard .col-xs-6 html">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>HTML</h3>
-          <p>La base du développement. L'organisation des pages passe par une bonne indentation et une refactorisation permettant une bonne lisibilité du code.</p>
-        </div>
-      </div>
-    </div>
-    <div class="flipCard .col-xs-6 css">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>CSS</h3>
-          <p>Langage de front-end de base. Comme pour le HTML c'est l'organisation du code qui doit être maximisée, je mets donc un point d'honneur à organiser correctement mon code pour le rendre le plus lisible possible.</p>
-        </div>
-      </div>
-    </div>
-    <div class="flipCard .col-xs-6 sql">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>SQL / postgre</h3>
-          <p>Solution DB manipulée au Wagon. Je sais gérer des requêtes SQL. Postgre est une solution opensource permettant de gérer la base de données.</p>
-        </div>
-      </div>
-    </div>
-    <div class="flipCard .col-xs-6 jquery">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>JQuery</h3>
-          <p>Il s'agit d'une librairie JavaScript. J'utilise plutôt régulièrement jquery. Avec le succès croissant de JavaScript jquery devient également de plus en plus intéressant à utiliser.</p>
-        </div>
-      </div>
-    </div>
-    <div class="flipCard .col-xs-6 github">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>GitHub</h3>
-          <p>Solution de "versionning" et de sauvegarde des projets en ligne. J'ai utilisé GitHub quotidiennement pendant ma formation (notamment pour le travail d'équipe). J'ai continué à l'utiliser, même pour les projets menés seul.</p>
-        </div>
-      </div>
-    </div>
-    <div class="flipCard .col-xs-6 api">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>API</h3>
-          <p>De plus en plus de sites permettent d'accéder à leur données par le biais d'APIs, il est donc indispensable de savoir comment gérer ces données. Au cours de mes projets j'ai dû utiliser différentes APIs. Je saurais exploiter les données fournies par celles-ci pour les intégrer à votre projet.</p>
-        </div>
-      </div>
-    </div>
-    <div class="flipCard .col-xs-6 bootstrap">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>Bootstrap</h3>
-          <p>La bibliothèque Bootstrap peut être inspirante et permettre d'émettre des propositions graphiques aux clients. D'autre part, les prédispositions responsives des modèles sont intéressantes.</p>
-        </div>
-      </div>
-    </div>
-    <div class="flipCard .col-xs-6 heroku">
-      <div class="card" onclick="this.classList.toggle('flipped');">
-        <div class="side front"></div>
-        <div class="side back">
-          <h3>Heroku</h3>
-          <p>Mes projets sont hébergés par des serveurs Heroku. Cette plateforme me permet d'être polyvalent et reste simple d'utilisation ce qui me permet d'intégrer le client au processus de mise en ligne du site web.</p>
-        </div>
-      </div>
+    <div class="logo-competences">
+      <%= image_tag "ruby.png", class:"img-skill" %>
+      <%= image_tag "js.png", class:"img-skill" %>
+      <%= image_tag "react.png", class:"img-skill" %>
+      <%= image_tag "html.png", class:"img-skill" %>
+      <%= image_tag "css.png", class:"img-skill" %>
+      <%= image_tag "postgre.png", class:"img-skill" %>
+      <%= image_tag "jquery.png", class:"img-skill" %>
+      <%= image_tag "github.png", class:"img-skill" %>
+      <%= image_tag "api.png", class:"img-skill" %>
+      <%= image_tag "bootstrap.png", class:"img-skill" %>
+      <%= image_tag "heroku.png", class:"img-skill" %>
     </div>
   </div>
+
+
 
   <a href="#formation">
     <p class="arrow"><i class="fas fa-angle-double-down p2"></i></p>
@@ -158,29 +85,6 @@
 </div>
 
   <!-- Projects -->
-
-  <div id="new-projects">
-    <div class="container">
-      <p class="title">&nbsp;Projects</p>
-
-      <div class="content-project">
-        <%= image_tag("phone_overlay.png", class:'img-phone') %>
-
-        <div class="show-in">
-          <div class="descrition">
-              <%= image_tag("flash_wine.png", class:'img-des') %>
-              <div class="descrition-site">
-                <h3>Loue mon conjoint</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque iure, voluptates, quo officia laborum ipsam accusantium, minima labore in ullam dolore iusto reprehenderit modi itaque, illum. Minima error, non eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum amet iusto, culpa officiis harum maxime earum provident vitae nisi optio ratione sapiente? Accusantium saepe id voluptatibus, mollitia cumque ratione.</p>
-              </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
 
 
   <div id="projects">
