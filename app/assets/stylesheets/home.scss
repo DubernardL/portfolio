@@ -10,13 +10,9 @@ a:link {
 
 .title {
   font-family: 'elrotex';
-  color: white;
+  color: #e2e2e2;
   font-size: 50px;
-  background-image:linear-gradient(to top, #d1e8ff 25%, #aecfe8 50%, #6b88a0 75%, #59656f 100%);
-  color: rgba(0, 0, 0, 0);
-  -webkit-background-clip: text;
-  background-clip: text;
-  position: relative;
+  text-align: center;
 }
 
 .arrow {
@@ -29,19 +25,22 @@ body {
   background-attachment: fixed;
 }
 
+
 p {
   font-family: 'Prompt', sans-serif;
-  color: white;
+  color: #e2e2e2;
+  font-size: 23px;
 }
 
 h3 {
   font-family: 'Prompt', sans-serif;
-  color: white;
+  color: #e2e2e2;
+  font-size: 36px;
 }
 
 // First page
-
 .img-first {
+  background-image: url(asset_path('work-img-3.png'));
   background-size: cover;
   background-position: center;
 }
@@ -64,17 +63,17 @@ h3 {
 
 .fullname {
   font-family: 'elrotex';
-  color: white;
+  color: #e2e2e2;
   font-size: 65px;
 }
 
 .description {
-  color: white;
+  color: #e2e2e2;
   font-size: 35px;
 }
 
 .typed-text {
-  color: white;
+  color: #e2e2e2;
   font-size: 35px;
 }
 
@@ -84,8 +83,8 @@ h3 {
 
 .fa-angle-double-down {
   font-size: 50px;
-  color: #d1e8ff;
-  opacity: 0.5;
+  color: #e2e2e2;
+  opacity: 0.6;
 }
 
 .first-arrow {
@@ -95,7 +94,7 @@ h3 {
 
 // skill list
 .competences-content {
-  background-color: rgba(69,69,69,0.3);
+  background-color: rgba(69,69,69,0.5);
   padding: 20px;
 }
 
@@ -114,24 +113,62 @@ h3 {
 
 // formation section
 
-.logo-wagon-div {
+.formation-div {
+  padding-top: 30px;
+}
+
+.logo-formation-div {
   display: flex;
   justify-content: center;
 }
 
 .logo-wagon {
-  height: 170px;
+  height: 130px;
 }
 
-.text-formation {
-  font-family: 'PT Sans Narrow', sans-serif;
-  color: white;
-  font-size: 20px;
-  text-align: justify;
-  opacity: 0.6;
+.logo-ub {
+  height: 100px;
 }
+
 
 // projects section
+
+// top effect
+.lines {
+  display: flex;
+  height: 50px;
+}
+
+.line-left {
+  background: linear-gradient(to top left, #252525 calc(50% - 0.1px), transparent calc(50% + 1px) );
+  width: 25%;
+}
+
+.line-right {
+  background: linear-gradient(to top right, #252525 calc(50% - 0.1px), transparent calc(50% + 1px) );
+  width: 75%;
+}
+
+// bot effect
+.bot-lines {
+  display: flex;
+  height: 40px;
+}
+
+.bot-line-left {
+  background: linear-gradient(to top right, transparent calc(50% - 0.1px), #252525 calc(50% + 1px) );
+  width: 60%;
+}
+
+.bot-line-right {
+  background: linear-gradient(to top left, transparent calc(50% - 0.1px), #252525 calc(50% + 1px) );
+  width: 40%;
+}
+
+// content project
+#projects {
+  background-color: #252525;
+}
 
 .advice {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -169,26 +206,24 @@ h3 {
 }
 
 // Contact section
+.footer {
+  background-color: #252525;
+}
 
 .list-contact {
-  font-family: 'PT Sans Narrow', sans-serif;
-  color: white;
-  font-size: 30px;
-  display: flex;
   text-align: center;
-  flex-direction: column;
+  justify-content: space-between;
+  font-size: 30px;
+  padding: 20px 0px;
 }
 
 .icones {
   font-size: 50px;
-  text-transform: uppercase;
-  background: linear-gradient(0.4turn, white 25%, #94ccc2 50%, #64BCAE 75%, #3cb7a3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #e2e2e2;
 }
 
 .item-contact {
-  margin-top: 30px;
+  border-right: 2px solid #e2e2e2;
 }
 
 .link-icone:hover {
@@ -205,17 +240,21 @@ h3 {
 
 .center-btn {
   text-align: center;
+  margin: 40px 0px;
 }
 
 .btn-form {
-  color: white;
+  font-family: 'Prompt', sans-serif;
   padding: 15px 20px;
   border-radius: 300px;
   border: none;
-  background:linear-gradient(to top, white 25%, #94ccc2 50%, #64BCAE 75%, #3cb7a3 100%);
-  color: grey;
+  color: #252525;
+  background-color: #e2e2e2;
 }
 
 .btn-form:hover {
+  font-family: 'Prompt', sans-serif;
   transform: scale(1.05);
+  color: #e2e2e2;
+  background-color: #252525;
 }
