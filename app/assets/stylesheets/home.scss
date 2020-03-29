@@ -38,6 +38,8 @@ p {
   font-family: 'Prompt', sans-serif;
   color: #e2e2e2;
   font-size: 18px;
+  text-align: justify;
+  text-justify: distribute;
 }
 
 h3 {
@@ -104,12 +106,14 @@ h3 {
 }
 
 .description {
+  font-family: 'Prompt', sans-serif;
   color: #e2e2e2;
   font-size: 35px;
   font-weight: bold;
 }
 
 .typed-text {
+  font-family: 'Prompt', sans-serif;
   color: #e2e2e2;
   font-size: 35px;
   font-weight: bold;
@@ -256,22 +260,20 @@ h3 {
 
 .footer {
   background-color: #252525;
+  padding: 40px 0;
 }
 
-.list-contact {
-  text-align: center;
-  justify-content: space-between;
-  font-size: 30px;
-  padding: 20px 0px;
+.item-contact {
+  border-right: 2px solid #e2e2e2;
+}
+
+.item-contact p {
+  text-align: center !important;
 }
 
 .icones {
   font-size: 50px;
   color: #e2e2e2;
-}
-
-.item-contact {
-  border-right: 2px solid #e2e2e2;
 }
 
 .link-icone:hover {
